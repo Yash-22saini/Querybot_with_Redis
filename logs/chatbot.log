@@ -1,0 +1,175 @@
+2026-02-25 22:57:50 | INFO     | chatbot | User yash logged in, session=76b519cd
+2026-02-25 22:58:17 | INFO     | chatbot | [yash] User: hi , what is data?
+2026-02-25 22:58:17 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-25 22:58:17 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-25 22:58:17 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025E3C4CD940>
+2026-02-25 22:58:17 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025E3C540CB0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-25 22:58:17 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025E4CA6FB10>
+2026-02-25 22:58:17 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-25 22:58:17 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-25 22:58:17 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-25 22:58:17 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-25 22:58:17 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-25 22:58:19 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/event-stream'), (b'Content-Disposition', b'attachment'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 25 Feb 2026 17:28:19 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1899'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2026-02-25 22:58:19 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-02-25 22:58:19 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-25 22:58:19 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-25 22:58:19 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-25 22:58:19 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-25 22:58:19 | INFO     | chatbot | [yash] Nova replied (132 chars)
+2026-02-25 22:58:23 | DEBUG    | httpcore.connection | close.started
+2026-02-25 22:58:23 | DEBUG    | httpcore.connection | close.complete
+2026-02-25 22:58:39 | INFO     | chatbot | [yash] User: types of it?
+2026-02-25 22:58:39 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-25 22:58:39 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-25 22:58:39 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025E4CA6CA50>
+2026-02-25 22:58:39 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025E37FEA180> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-25 22:58:39 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025E3C9BBBB0>
+2026-02-25 22:58:39 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-25 22:58:39 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-25 22:58:39 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-25 22:58:39 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-25 22:58:39 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-25 22:58:42 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/event-stream'), (b'Content-Disposition', b'attachment'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 25 Feb 2026 17:28:42 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=3266'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2026-02-25 22:58:42 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-02-25 22:58:42 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-25 22:58:43 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-25 22:58:43 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-25 22:58:43 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-25 22:58:43 | INFO     | chatbot | [yash] Nova replied (499 chars)
+2026-02-25 22:58:48 | DEBUG    | httpcore.connection | close.started
+2026-02-25 22:58:48 | DEBUG    | httpcore.connection | close.complete
+2026-02-25 22:59:11 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-25 22:59:11 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-25 22:59:11 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025E383E0E90>
+2026-02-25 22:59:11 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025E37FEA180> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-25 22:59:11 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025E3C9FDB50>
+2026-02-25 22:59:11 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-25 22:59:11 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-25 22:59:11 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-25 22:59:11 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-25 22:59:11 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-25 22:59:13 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 25 Feb 2026 17:29:13 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1762'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-02-25 22:59:13 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-25 22:59:13 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-25 22:59:13 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-25 22:59:13 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-25 22:59:13 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-25 22:59:13 | INFO     | memory | Summary saved for user=yash session=76b519cd
+2026-02-25 22:59:13 | INFO     | chatbot | Summary generated for yash
+2026-02-25 22:59:13 | INFO     | memory | Session cleared user=yash session=76b519cd
+2026-02-25 22:59:13 | INFO     | chatbot | User yash logged out
+2026-02-25 22:59:17 | DEBUG    | httpcore.connection | close.started
+2026-02-25 22:59:17 | DEBUG    | httpcore.connection | close.complete
+2026-02-25 22:59:37 | INFO     | chatbot | User yash logged in, session=e90d1581
+2026-02-25 23:03:17 | INFO     | chatbot | User yash logged in, session=e90d1581
+2026-02-25 23:04:51 | INFO     | chatbot | [yash] User: what is gen ai?
+2026-02-25 23:04:51 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-25 23:04:51 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-25 23:04:51 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA79EE5940>
+2026-02-25 23:04:51 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DA7A3D67B0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-25 23:04:51 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA79E81310>
+2026-02-25 23:04:51 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-25 23:04:51 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-25 23:04:51 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-25 23:04:51 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-25 23:04:51 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-25 23:04:53 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/event-stream'), (b'Content-Disposition', b'attachment'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 25 Feb 2026 17:34:53 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1430'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2026-02-25 23:04:53 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-02-25 23:04:53 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-25 23:04:53 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-25 23:04:53 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-25 23:04:53 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-25 23:04:53 | INFO     | chatbot | [yash] Nova replied (208 chars)
+2026-02-25 23:04:57 | DEBUG    | httpcore.connection | close.started
+2026-02-25 23:04:57 | DEBUG    | httpcore.connection | close.complete
+2026-02-25 23:05:14 | INFO     | chatbot | [yash] User: advantages?
+2026-02-25 23:05:14 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-25 23:05:14 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-25 23:05:15 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA7A3B7B10>
+2026-02-25 23:05:15 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DA79D974A0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-25 23:05:15 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA7A3DB5C0>
+2026-02-25 23:05:15 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-25 23:05:15 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-25 23:05:15 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-25 23:05:15 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-25 23:05:15 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-25 23:05:17 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/event-stream'), (b'Content-Disposition', b'attachment'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 25 Feb 2026 17:35:17 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=2481'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2026-02-25 23:05:17 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-02-25 23:05:17 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-25 23:05:17 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-25 23:05:17 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-25 23:05:17 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-25 23:05:17 | INFO     | chatbot | [yash] Nova replied (521 chars)
+2026-02-25 23:05:21 | DEBUG    | httpcore.connection | close.started
+2026-02-25 23:05:21 | DEBUG    | httpcore.connection | close.complete
+2026-02-25 23:05:30 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-25 23:05:30 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-25 23:05:31 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA7A3DB5C0>
+2026-02-25 23:05:31 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DA79F60B90> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-25 23:05:31 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA7A41E7B0>
+2026-02-25 23:05:31 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-25 23:05:31 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-25 23:05:31 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-25 23:05:31 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-25 23:05:31 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-25 23:05:33 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 25 Feb 2026 17:35:33 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=2057'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-02-25 23:05:33 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-25 23:05:33 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-25 23:05:33 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-25 23:05:33 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-25 23:05:33 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-25 23:05:33 | INFO     | memory | Summary saved for user=yash session=e90d1581
+2026-02-25 23:05:33 | INFO     | chatbot | Summary generated for yash
+2026-02-25 23:05:33 | INFO     | memory | Session cleared user=yash session=e90d1581
+2026-02-25 23:05:33 | INFO     | chatbot | User yash logged out
+2026-02-25 23:05:38 | DEBUG    | httpcore.connection | close.started
+2026-02-25 23:05:38 | DEBUG    | httpcore.connection | close.complete
+2026-02-25 23:05:57 | INFO     | chatbot | User yash logged in, session=21d7aeba
+2026-02-25 23:06:51 | INFO     | chatbot | [yash] User: what is gen ai?
+2026-02-25 23:06:51 | INFO     | chatbot | [yash] Cache HIT for: what is gen ai?
+2026-02-25 23:07:12 | INFO     | chatbot | [yash] User: advantages?
+2026-02-25 23:07:12 | INFO     | chatbot | [yash] Cache HIT for: advantages?
+2026-02-25 23:07:52 | INFO     | chatbot | User yash logged in, session=21d7aeba
+2026-02-25 23:08:44 | INFO     | chatbot | [yash] User: types?
+2026-02-25 23:08:44 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-25 23:08:44 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-25 23:08:44 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA7A1BDF20>
+2026-02-25 23:08:44 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DA79F60D40> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-25 23:08:44 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DA7A1BCF30>
+2026-02-25 23:08:44 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-25 23:08:44 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-25 23:08:44 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-25 23:08:44 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-25 23:08:44 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-25 23:08:48 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/event-stream'), (b'Content-Disposition', b'attachment'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Wed, 25 Feb 2026 17:38:48 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=3816'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2026-02-25 23:08:48 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-02-25 23:08:48 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-25 23:08:49 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-25 23:08:49 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-25 23:08:49 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-25 23:08:49 | INFO     | chatbot | [yash] Nova replied (679 chars)
+2026-02-25 23:08:53 | DEBUG    | httpcore.connection | close.started
+2026-02-25 23:08:53 | DEBUG    | httpcore.connection | close.complete
+2026-02-25 23:10:13 | INFO     | chatbot | User yash logged in, session=21d7aeba
+2026-02-26 11:37:34 | INFO     | chatbot | User yash logged in, session=253dab0d
+2026-02-26 11:38:26 | INFO     | chatbot | [yash] User: hi how are you?
+2026-02-26 11:38:26 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-02-26 11:38:26 | DEBUG    | httpcore.connection | connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-02-26 11:38:26 | DEBUG    | httpcore.connection | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000027B6BD9F4D0>
+2026-02-26 11:38:26 | DEBUG    | httpcore.connection | start_tls.started ssl_context=<ssl.SSLContext object at 0x0000027B69EC6330> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-02-26 11:38:27 | DEBUG    | httpcore.connection | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000027B6BD96AD0>
+2026-02-26 11:38:27 | DEBUG    | httpcore.http11 | send_request_headers.started request=<Request [b'POST']>
+2026-02-26 11:38:27 | DEBUG    | httpcore.http11 | send_request_headers.complete
+2026-02-26 11:38:27 | DEBUG    | httpcore.http11 | send_request_body.started request=<Request [b'POST']>
+2026-02-26 11:38:27 | DEBUG    | httpcore.http11 | send_request_body.complete
+2026-02-26 11:38:27 | DEBUG    | httpcore.http11 | receive_response_headers.started request=<Request [b'POST']>
+2026-02-26 11:38:28 | DEBUG    | httpcore.http11 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/event-stream'), (b'Content-Disposition', b'attachment'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Transfer-Encoding', b'chunked'), (b'Date', b'Thu, 26 Feb 2026 06:08:28 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1942'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2026-02-26 11:38:28 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2026-02-26 11:38:28 | DEBUG    | httpcore.http11 | receive_response_body.started request=<Request [b'POST']>
+2026-02-26 11:38:29 | DEBUG    | httpcore.http11 | receive_response_body.complete
+2026-02-26 11:38:29 | DEBUG    | httpcore.http11 | response_closed.started
+2026-02-26 11:38:29 | DEBUG    | httpcore.http11 | response_closed.complete
+2026-02-26 11:38:29 | INFO     | chatbot | [yash] Nova replied (61 chars)
+2026-02-26 11:38:30 | DEBUG    | httpcore.connection | close.started
+2026-02-26 11:38:30 | DEBUG    | httpcore.connection | close.complete
