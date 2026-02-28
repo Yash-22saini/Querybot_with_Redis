@@ -2,3 +2,5 @@ streamlit
 google-genai
 redis
 python-dotenv
+fastapi
+uvicorn[standard]
